@@ -1,0 +1,61 @@
+body{
+  font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+div.header{
+  background-image: url("img/coffee.jpg");
+  width: auto;
+  height: 250px;
+  opacity: 0.75;
+
+  font-size: 100px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+div.header-text{
+  align-self: center;
+  justify-content: center;
+  width: auto;
+
+  opacity: 1;
+}
+
+div.main-body{
+  max-width: 1280px;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.left-body, div.middle-body, div.right-body{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.middle-body{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.paragraph-image{
+  align-self: center;
+  flex-grow: 0;
+  margin-bottom: 24px;
+}
+
+div.video-container{
+  position: absolute;
+}
