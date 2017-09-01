@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kaffe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/final-bean.png" type="image/png" sizes="16x16">
+    <script src="script.js"></script>
+  </head>
 <!--Tema for websiden er "noe du er takknemlig for i livet".
 
     Krav til siden
@@ -10,17 +19,19 @@
     CSS og Javascript skal være i egne filer
     Lag lettlest dokumentasjon hvor du forklarer kort hvor/hvordan du har løst kravene over
 
-    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Studenten sin dokumentasjon:
+    Tema: Eg er veldig takknemlig for at kaffe eksistere
+
+    Krav:
+    1. Eg syns iallefall sida mi er fin, og ikkje ei side anno '96.
+    2. Sjølve body er ein flexbox container, og det er kvart element ned til sjølve teksten/bilder i tilleg til å vera flexbox item.
+    3. Javascript er nytta på bildene over kvar tekst-"boks" for å vise fram ein embed youtube-video og gjere bakgrunnen transparent om ein trykke på dei. Ein kan også fjerne videoen ved å klikke utfor den etter den har lasta.
+    4. Favicon kan ein sjå er ei kaffebønne.
+    5. W3C seie "Document checking completed. No errors or warnings to show." Sida er testa på Firefox 55, Chrome 60, Opera 47, Microsoft Edge 40, Og Internet Explorer 11 og oppføre seg stort sett heilt likt utanom IE som ikkje støtte iframe (embed), og som krevde litt eksplisitt width: 100%.
+    6. CSS og JS er egne filer så fint kalla style.css og script.js.
+    7. Ta-daaaa.
 -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Kaffe</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/final-bean.png" type="image" sizes="16x16">
-    <script src="script.js"></script>
-  </head>
   <body>
     <div class="header">
       <div class="header-text">Å, fantastiske kaffe</div>
@@ -72,7 +83,7 @@
         Kaffeposer er mye sjeldnere en den tilsvarende innretningen for te (tepose), siden de er mye større og uhåndterlige (det trengs mer kaffe i en kaffepose enn te i en tepose).
 
       </div>
-      <div class="video-container" id="container-div"> <iframe id="video-container" width="0" height="0" src="" frameborder="0" allowfullscreen></iframe></div>
+      <div class="video-container" id="container-div"> <iframe id="video-container" width="0" height="0" src="https://nope" allowfullscreen></iframe></div>
     </div>
   </body>
 </html>
